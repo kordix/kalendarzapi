@@ -90,7 +90,7 @@ class EventController extends Controller
                     'from' => 'Test', //pole nadawcy stworzone w https://ssl.smsapi.pl/sms_settings/sendernames
                     'message' => $event->description, //treść wiadomości
                     'format' => 'json',
-                    'test' => 1
+                    'test' => 0
                 );
 
                 echo 'dziala';
